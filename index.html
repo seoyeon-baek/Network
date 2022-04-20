@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/index.css" />
+    <title>NSI</title>
+  </head>
+  <body>
+    <div id="mainWrapper">
+      <div id="banner">
+        <img class="banner" src="img/banner.jpg" alt="" />
+        <span>Network</span>
+        <p id="title">쌍자치환을 이용해 나만의 암호문을 직접 경험해보세요</p>
+        <a href="#underWrapper"
+          ><img class="arrow" src="/img/icon/arrow.svg" alt=""
+        /></a>
+
+        <div id="underWrapper">
+          <div class="container" id="one">
+            <h2>STEP 1</h2>
+            <p>나만의 암호문 만들기</p>
+            <img src="/img/icon/lock.svg" alt="" />
+            <textarea
+              name=""
+              id="input_secret"
+              placeholder="여기에 암호문을 적으세요."
+            ></textarea>
+          </div>
+
+          <div class="container" id="two">
+            <h2>STEP 2</h2>
+            <p>나만의 평문 만들기</p>
+            <img src="/img/icon/book.svg" alt="" />
+            <textarea
+              name=""
+              id="input_plain"
+              placeholder="여기에 평문을 적으세요."
+            ></textarea>
+          </div>
+          <div class="container" id="three">
+            <h2>STEP 3</h2>
+            <p>
+              나만의
+              <br />
+              테이블과 <br />
+              암호문을 <br />
+              완성시키기
+            </p>
+            <button>TABLE</button>
+            <button>CRYPTOGRAM</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="modalWrapper">
+      <div id="modal">
+        <!-- header -->
+        <div id="modal-header">
+          <div id="modal-title">모달내용인데뭐넣지후후후후</div>
+        </div>
+
+        <!-- content -->
+        <p>내요애요용요</p>
+
+        <div class="close-modal">
+          <button id="close-modal">&times;</button>
+        </div>
+      </div>
+
+      <script src="js/modal.js"></script>
+    </div>
+  </body>
+</html>
