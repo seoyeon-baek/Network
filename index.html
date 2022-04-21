@@ -50,7 +50,7 @@
               완성시키기
             </p>
             <button>TABLE</button>
-            <button>CRYPTOGRAM</button>
+            <button id="btn-cry-open">CRYPTOGRAM</button>
           </div>
         </div>
       </div>
@@ -62,7 +62,7 @@
         <div id="modal-header">
           <div id="modal-title">나만의 암호문을 확인하세요 !</div>
           <div class="close-modal">
-            <button id="close-modal">&times;</button>
+            <button id="btn-cry-close">&times;</button>
           </div>
         </div>
 
@@ -71,9 +71,14 @@
           <p>입력하신평문</p>
         </div>
 
-        <input type="text" id="input-ori-box" />
+        <input type="text" class="input-ori-box" />
       </div>
 
+      <div id="input-change-title">
+        <p>암호화된 평문</p>
+
+        <input type="text" class="input-change-box" />
+      </div>
       <script src="js/modal.js"></script>
     </div>
   </body>

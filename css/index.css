@@ -155,6 +155,10 @@
   margin-top: 50px;
 }
 
+#banner #underWrapper #one textarea:focus {
+  outline: none;
+}
+
 #banner #underWrapper #two h2 {
   font-family: "Noto Sans KR";
   font-style: normal;
@@ -187,6 +191,10 @@
   border: 5px solid #a85cae;
   margin-left: 23.5%;
   margin-top: 41px;
+}
+
+#banner #underWrapper #two textarea:focus {
+  outline: none;
 }
 
 #banner #underWrapper #three {
@@ -266,6 +274,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  display: none;
 }
 
 #modalWrapper #modal {
@@ -296,7 +305,7 @@
   top: 45px;
 }
 
-#modalWrapper #modal-header #close-modal {
+#modalWrapper #modal-header #btn-cry-close {
   background-color: transparent;
   border: none;
   color: #ffffff;
@@ -325,7 +334,7 @@
   font-weight: 700;
 }
 
-#modalWrapper #input-ori-box {
+#modalWrapper .input-ori-box {
   width: 868px;
   height: 134px;
   background-color: rgba(235, 216, 225, 0.3);
@@ -336,7 +345,67 @@
   font-family: "Noto Sans KR";
   font-style: normal;
   font-weight: 800;
-  font-size: 42px;
+  font-size: 38px;
+  line-height: 78px;
+  /* identical to box height */
+  text-align: center;
+  color: #522f67;
+}
+
+#modalWrapper input:focus {
+  outline: none;
+}
+
+#modalWrapper #input-ori-title {
+  width: 256px;
+  height: 45px;
+  background-color: #e9dbe7;
+  border-radius: 6px;
+  margin: 0 auto;
+  position: relative;
+  top: 46px;
+}
+
+#modalWrapper #input-ori-title p {
+  font-size: 28px;
+  text-align: center;
+  padding-top: 10px;
+  color: #8b6d8f;
+  font-weight: 700;
+}
+
+#modalWrapper #input-change-title {
+  width: 256px;
+  height: 45px;
+  background-color: #e9dbe7;
+  border-radius: 6px;
+  margin: 0 auto;
+  position: absolute;
+  top: 540px;
+}
+
+#modalWrapper #input-change-title p {
+  font-size: 28px;
+  text-align: center;
+  padding-top: 10px;
+  color: #8b6d8f;
+  font-weight: 700;
+}
+
+#modalWrapper .input-change-box {
+  width: 827px;
+  height: 134px;
+  background-color: rgba(235, 216, 225, 0.3);
+  border: none;
+  border-radius: 20px;
+  position: absolute;
+  right: -289px;
+  top: 28px;
+  padding: 0 20px 0 20px;
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 38px;
   line-height: 78px;
   /* identical to box height */
   text-align: center;
