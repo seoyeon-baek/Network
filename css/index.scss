@@ -286,19 +286,64 @@
     border-top-right-radius: 40px;
 
     #modal-title {
-      font-size: 24px;
+      font-size: 36px;
       font-weight: bold;
+      color: white;
+      position: relative;
+      left: 45px;
+      top: 45px;
+    }
+    #close-modal {
+      background-color: transparent;
+      border: none;
+      color: #ffffff;
+      font-size: 100px;
+      font-weight: 600;
+      position: absolute;
+      right: 330px;
+      top: 130px;
     }
   }
 
-  #close-modal {
-    background-color: transparent;
-    border: none;
-    color: #000000;
-    font-size: 100px;
-    font-weight: 700;
+  #input-ori-title {
+    width: 256px;
+    height: 45px;
+    background-color: #e9dbe7;
+    border-radius: 6px;
+    margin: 0 auto;
+    position: relative;
+    top: 46px;
+
+    p {
+      font-size: 28px;
+      text-align: center;
+      padding-top: 10px;
+      color: #8b6d8f;
+      font-weight: 700;
+    }
   }
-  #modal p {
-    font-size: 16px;
+
+  #input-ori-box {
+    width: 868px;
+    height: 134px;
+    background-color: rgba(235, 216, 225, 0.3);
+    border: none;
+    border-radius: 20px;
+    margin-left: 230px;
+    margin-top: 25px;
+
+    font-family: "Noto Sans KR";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 78px;
+    /* identical to box height */
+
+    text-align: center;
+    color: rgba(82, 47, 103, 1);
+  }
+
+  input:focus {
+    outline: none;
   }
 }
