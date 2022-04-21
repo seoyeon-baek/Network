@@ -432,6 +432,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  display: none;
 }
 
 #table-modalWrapper #table-modal {
