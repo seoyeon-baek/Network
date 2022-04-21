@@ -415,4 +415,104 @@
 #modalWrapper input:focus {
   outline: none;
 }
+
+#table-modalWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#table-modalWrapper #table-modal {
+  background: white;
+  padding: 0px;
+  border-radius: 4px;
+  width: 1369px;
+  height: 720px;
+  border-radius: 40px;
+  -webkit-box-shadow: 20px 20px 20px 1px rgba(0, 0, 0, 0.113);
+          box-shadow: 20px 20px 20px 1px rgba(0, 0, 0, 0.113);
+}
+
+#table-modalWrapper #table-modal-header {
+  height: 117px;
+  background-color: #d6c6d4;
+  margin: 0px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+#table-modalWrapper #table-modal-header #table-modal-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  position: relative;
+  left: 45px;
+  top: 45px;
+}
+
+#table-modalWrapper #table-modal-header #btn-table-close {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 100px;
+  font-weight: 600;
+  position: absolute;
+  right: 330px;
+  top: 130px;
+}
+
+#table-modalWrapper #table-title {
+  width: 256px;
+  height: 45px;
+  background-color: #e9dbe7;
+  border-radius: 6px;
+  margin: 0 auto;
+  position: relative;
+  top: 46px;
+}
+
+#table-modalWrapper #table-title p {
+  font-size: 28px;
+  text-align: center;
+  padding-top: 10px;
+  color: #8b6d8f;
+  font-weight: 700;
+}
+
+#table-modalWrapper .table-box {
+  width: 550px;
+  height: 420px;
+  background-color: rgba(235, 216, 225, 0.3);
+  border: none;
+  border-radius: 20px;
+  margin-left: 270px;
+  margin-top: 25px;
+  overflow: hidden;
+  resize: none;
+  padding: 40px 100px 0 180px;
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 78px;
+  letter-spacing: 80px;
+  text-align: center;
+  color: #522f67;
+}
+
+#table-modalWrapper .table-box:focus {
+  outline: none;
+}
 /*# sourceMappingURL=index.css.map */

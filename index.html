@@ -49,13 +49,14 @@
               암호문을 <br />
               완성시키기
             </p>
-            <button>TABLE</button>
+            <button id="btn-table-open">TABLE</button>
             <button id="btn-cry-open">CRYPTOGRAM</button>
           </div>
         </div>
       </div>
     </div>
 
+    <!-- cryptogram modals -->
     <div id="modalWrapper">
       <div id="modal">
         <!-- header -->
@@ -80,6 +81,27 @@
         <input type="text" class="input-change-box" />
       </div>
       <script src="js/modal.js"></script>
+    </div>
+
+    <!-- table modal wrapper -->
+    <div id="table-modalWrapper">
+      <div id="table-modal">
+        <!-- header -->
+        <div id="table-modal-header">
+          <div id="table-modal-title">나만의 암호문을 확인하세요 !</div>
+          <div class="table-close-modal">
+            <button id="btn-table-close">&times;</button>
+          </div>
+        </div>
+
+        <!-- content -->
+        <div id="table-title">
+          <p>입력하신 평문</p>
+        </div>
+
+        <textarea class="table-box"></textarea>
+      </div>
+      <script src="js/tablemodal.js"></script>
     </div>
   </body>
 </html>
